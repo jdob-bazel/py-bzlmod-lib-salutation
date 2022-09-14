@@ -1,0 +1,6 @@
+module(
+    name = "salutation",
+    version = "1.0",
+)
+
+bazel_dep(name="greeting", version="1.0", repo_name="greeting_repo")
